@@ -1,8 +1,6 @@
 # Alpha Mapping Demo
 デモページ  
-[https://kakoikeisuke.github.io/alpha-mapping-demo/sample_room/](https://kakoikeisuke.github.io/alpha-mapping-demo/sample_room/)  
-
-![Demo Animation](./embeddedImage.gif)
+[https://kakoikeisuke.github.io/alpha-mapping-demo/sample_room/](https://kakoikeisuke.github.io/alpha-mapping-demo/sample_room/)
 
 ## 概要
 このリポジトリは, PNGファイルのアルファチャンネルを一意のIDとして利用し, 画像内のオブジェクトを識別するコードのデモです。  
@@ -15,7 +13,7 @@
 
 ## 画像について
 アルファをIDのように使用しているため, 表示自体は不透明になることを前提としています。  
-また, RGBの情報をそのまま描画するため, RGBの値とアルファの値は完全に独立したもの（ストレート）として用意しておく必要があります。
+また, RGBの情報をそのまま描画するため, RGBの値とアルファの値は完全に独立したもの（ストレート）として用意しておく必要があります。  
 アルファをRGBに乗算した形式（プリマルチプライドアルファ）の場合, 表示が崩れてしまいます。
 
 ## デモの画像について

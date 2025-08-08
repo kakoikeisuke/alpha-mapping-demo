@@ -22,7 +22,7 @@ function getCanvasWidth() {
         window.innerWidth,
         document.documentElement.clientWidth
     );
-    return Math.floor(availableWidth * 0.7);
+    return Math.floor(availableWidth * 0.8);
 }
 let canvasWidth = getCanvasWidth();
 
