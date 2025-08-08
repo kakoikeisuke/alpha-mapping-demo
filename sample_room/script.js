@@ -17,7 +17,14 @@ const alphaMapping = {
 }
 
 // canvas要素の幅（画面幅の70%）
-let canvasWidth = Math.floor(window.innerWidth * 0.7);
+function getCanvasWidth() {
+    const availableWidth = Math.min(
+        window.innerWidth,
+        document.documentElement.clientWidth
+    );
+    return Math.floor(availableWidth * 0.7);
+}
+let canvasWidth = getCanvasWidth();
 
 const canvas = document.getElementById('output-canvas');
 const ctx = canvas.getContext('2d');
