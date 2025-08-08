@@ -1,1 +1,2 @@
-# alpha-mapping-demo
+# Alpha Mapping Demo
+画像ファイルのアルファチャンネルをもとに写っているものにラベル付けするデモページです。
