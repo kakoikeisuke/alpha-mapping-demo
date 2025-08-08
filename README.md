@@ -1,6 +1,8 @@
 # Alpha Mapping Demo
 デモページ  
-[https://kakoikeisuke.github.io/alpha-mapping-demo/sample-room/](https://kakoikeisuke.github.io/alpha-mapping-demo/sample-room/)
+[https://kakoikeisuke.github.io/alpha-mapping-demo/sample-room/](https://kakoikeisuke.github.io/alpha-mapping-demo/sample-room/)  
+
+![sample animation](readme-image/sample-animation.gif)
 
 ## 概要
 このリポジトリは, PNGファイルのアルファチャンネルを一意のIDとして利用し, 画像内のオブジェクトを識別するコードのデモです。  
