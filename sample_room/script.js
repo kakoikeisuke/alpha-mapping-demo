@@ -1,4 +1,4 @@
-// 以下の 画像ファイルのパス, アルファ値に対応した文字列のマップ, canvas要素の幅 の3つを編集
+// 以下の 画像ファイルのパス, アルファ値に対応した文字列のマップ を編集
 
 // 画像ファイルのパス
 const imageFileName = 'room.png';
@@ -15,8 +15,9 @@ const alphaMapping = {
     246: 'sky',
     default: 'background'
 }
-// canvas要素の幅
-const canvasWidth = 500;
+
+// canvas要素の幅（画面幅の90%）
+const canvasWidth = Math.floor(window.innerWidth * 0.9);
 
 const canvas = document.getElementById('output-canvas');
 const ctx = canvas.getContext('2d');
