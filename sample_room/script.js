@@ -16,8 +16,8 @@ const alphaMapping = {
     default: 'background'
 }
 
-// canvas要素の幅（画面幅の90%）
-const canvasWidth = Math.floor(window.innerWidth * 0.9);
+// canvas要素の幅（画面幅の70%）
+let canvasWidth = Math.floor(window.innerWidth * 0.7);
 
 const canvas = document.getElementById('output-canvas');
 const ctx = canvas.getContext('2d');
@@ -126,8 +126,8 @@ function getInfoFromPosition(clientX, clientY) {
 function showTooltip(text, clientX, clientY) {
     tooltip.textContent = text;
     tooltip.style.display = 'block';
-    tooltip.style.left = (clientX + 10) + 'px';
-    tooltip.style.top = (clientY - 30) + 'px';
+    tooltip.style.left = (clientX + 40) + 'px';
+    tooltip.style.top = (clientY - 40) + 'px';
 }
 
 // ツールチップを非表示
