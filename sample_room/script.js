@@ -16,7 +16,7 @@ const alphaMapping = {
     default: 'background'
 }
 // canvas要素の幅
-const canvasWidth = 700;
+const canvasWidth = 500;
 
 const canvas = document.getElementById('output-canvas');
 const ctx = canvas.getContext('2d');
